@@ -28,7 +28,7 @@ public class Tax {
 			int taxBand = 4;
 			return taxBand;
 		}
-		else if(a >+ 45000) {
+		else if(a >= 45000) {
 			System.out.println("25% tax on income over than 45'000");
 			int taxBand = 5;
 			return taxBand;
@@ -46,19 +46,19 @@ public class Tax {
 
 		switch(b) {
 		case 1:
-			return "On an income of £" + income + " you will be taxed 0%";
+			return "On an income of Â£" + income + " you will be taxed 0%";
 		case 2:
 			double taxBandTwo = income * 0.1;
-			return "you will pay £" + taxBandTwo + " in taxes";
+			return "you will pay Â£" + taxBandTwo + " in taxes";
 		case 3:
 			double taxBandThree = income * 0.15;
-			return "you will pay £" + taxBandThree + " in taxes";
+			return "you will pay Â£" + taxBandThree + " in taxes";
 		case 4:
 			double taxBandFour = income * 0.20;
-			return "you will pay £" + taxBandFour + " in taxes";
+			return "you will pay Â£" + taxBandFour + " in taxes";
 		case 5:
 			double taxBandFive = income * 0.25;
-			return"you will pay £" + taxBandFive + " in taxes";
+			return"you will pay Â£" + taxBandFive + " in taxes";
 		default: 
 			return "Invalid income entered";
 		}
