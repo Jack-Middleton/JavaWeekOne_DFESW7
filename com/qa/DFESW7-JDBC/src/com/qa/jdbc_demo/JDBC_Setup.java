@@ -17,7 +17,7 @@ public class JDBC_Setup {
 
 	// Adding our Database credentials
 	final String user = "root";
-	final String password = "Cooper2354";
+	final String password = "hfkuyfvkuhvkuyhgv";
 
 	// Create a connection object and set it to null
 	Connection conn = null;
